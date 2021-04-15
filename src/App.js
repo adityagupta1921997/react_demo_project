@@ -12,7 +12,7 @@ export default function App() {
   return (
     <Router>
       <div>
-        <ul>
+        {/* <ul>
           <li>
             <Link to="/">Home</Link>
           </li>
@@ -22,7 +22,8 @@ export default function App() {
           <li>
             <Link to="/dashboard">Dashboard</Link>
           </li>
-        </ul>
+        </ul> */}
+        {/* <heading>Demo App</heading> */}
         
         <Switch>
           <Route exact path="/">
